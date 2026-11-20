@@ -1,0 +1,10 @@
+/Library/
+/bootloader/
+/svd/
+/MDR1206_FLASH/
+/MDR1206_RAM_TCM_Debug/
+/MDR1206_RAM_TCM_Release/
+/Debug/
+/Release/
+/.metadata/
+__pycache__/
