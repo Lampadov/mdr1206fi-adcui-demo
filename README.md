@@ -34,7 +34,7 @@ flowchart LR
 
    Скрипт добавит `Library/`, `bootloader/` и `svd/` из оригинального проекта.
 
-2. В Eclipse импортируйте каталог через **File → Import → General → Existing Projects into Workspace**. Имя проекта в рабочей области — `MDR1206FI_MDR5103FI`.
+2. В Eclipse импортируйте каталог через **File → Import → General → Existing Projects into Workspace**. В рабочей области проект называется `MDR1206FI_MDR5103FI`.
 3. Выберите конфигурацию и профиль из [launch_cfg/](launch_cfg/). Путь к OpenOCD задаётся в настройках Eclipse.
 
    | Конфигурация | Профиль |
@@ -53,7 +53,7 @@ flowchart LR
 
 В статье при разомкнутых X1 и X2 коды держатся около нуля. С генератором **50 Гц, 10 В пик-пик в режиме High Z** на описанном стенде получилась амплитуда около **±260 000 кодов**. Это ориентир для той схемы подключения и номиналов, которые приведены в статье. [График и расчёт амплитуды][article].
 
-Автор статьи — **Илья Лампадов**. Файлы поддержки и загрузчик взяты из официального архива АО «ПКК Миландр» (Milandr). [Статья][article] · [Условия портала][terms].
+Статью написал **Илья Лампадов**. Файлы поддержки и загрузчик взяты из официального архива АО «ПКК Миландр» (Milandr). [Статья][article] · [Условия портала][terms].
 
 [article]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/rabota_s_atsp/69443/
 [archive]: https://support.milandr.ru/upload/iblock/d52/fyipzgp09ug1nhirum5k649zynvzlcqr/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20MDR1206FI%20%D1%81%20MDR5103FI.zip
